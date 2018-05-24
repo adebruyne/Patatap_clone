@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="patatapclone.css">
+    <script type="text/paperscript" canvas= "myCanvas">
+        for(var x = 0; x < 1000; x+= 100){
+          for(var y= 0; y < 1000; y+= 100){
+             var myCircle = new Path.Circle(new Point(x, y), 10);
+        myCircle.fillColor = 'red'; 
+        }
+    }
+        
+    
+
+
+
+
+
+
+    </script>
     <title>Patatap Clone</title>
 </head>
 <body>
     <canvas id="myCanvas" resize>
-        
+
     </canvas>
 
-<script type="text/javascript" src="paper-full.js"></script>
+<script type="text/javascript" src="paper-full.min.js"></script>
 
 </body>
 </html>
